@@ -57,7 +57,9 @@ variable "tags" {
   description = "(Optional) A mapping of tags to assign to the bucket."
   default = {
     environment = "DEV"
-    terraform   = "false"
+    terraform   = "true"
+    terraform plan -lock=false ...
+
   }
 }
 variable "key_name" {
