@@ -58,7 +58,7 @@ variable "tags" {
   default = {
     environment = "DEV"
     terraform   = "true"
-    terraform_plan_-lock = "false"
+    names = "terraform plan -lock = false"
 
   }
 }
